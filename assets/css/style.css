@@ -59,3 +59,18 @@ footer {
     background-color: rgb(146, 146, 189);
     grid-area: footer;
 }
+
+@media screen and (max-width: 575px) {
+    .container {
+        grid-template-areas: 1fr 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas:
+        "nav nav"
+        "sidebar sidebar"
+        "main main"
+        "content1 content1"
+        "content2 content3"
+        "content4 content5"
+        "footer footer";
+    }
+}
