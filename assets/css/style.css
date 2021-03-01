@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
 .container {
     display: grid;
     height: 200vh;
@@ -15,7 +21,7 @@
 
 
 nav {
-    background-color: crimson;
+    background-color: darkslategray;
     grid-area: nav;
     padding-right: 10px;
 }
@@ -54,27 +60,38 @@ main {
 }
 
 #content2 {
-    background-color: aquamarine;
     grid-area: content2;
+    background-image: url(../images/Horiseon.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #content3 {
-    background-color: bisque;
     grid-area: content3;
+    background-image: url(../images/london-calling.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #content4 {
-    background-color: blueviolet;
     grid-area: content4;
+    background-image: url(../images/website-in-progress.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #content5 {
-    background-color: cornflowerblue;
     grid-area: content5;
+    background-image: url(../images/coming-soon.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
-    background-color: rgb(146, 146, 189);
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     grid-area: footer;
 }
 
