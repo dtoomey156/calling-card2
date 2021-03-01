@@ -2,6 +2,6 @@
 ---
 WIP portfolio to showcase web design work
 
-https://dtoomey156.github.io/Horiseon-SEO/
+https://dtoomey156.github.io/calling-card2/
 
-![HoriseonSEO](assets/images/X.jpg)
+![Portfolio](assets/images/Portfolio.jpg)
