@@ -54,35 +54,35 @@ main {
 
 #content1 {
     grid-area: content1;
-    background-image: url(../images/run-buddy.jpg);
+    background-image: url(../Images/run-buddy.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #content2 {
     grid-area: content2;
-    background-image: url(../images/Horiseon.jpg);
+    background-image: url(../Images/Horiseon.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #content3 {
     grid-area: content3;
-    background-image: url(../images/london-calling.jpg);
+    background-image: url(../Images/london-calling.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #content4 {
     grid-area: content4;
-    background-image: url(../images/website-in-progress.jpg);
+    background-image: url(../Images/website-in-progress.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #content5 {
     grid-area: content5;
-    background-image: url(../images/coming-soon.jpg);
+    background-image: url(../Images/coming-soon.jpg);
     background-size: cover;
     background-position: center;
 }
