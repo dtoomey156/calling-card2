@@ -1,8 +1,8 @@
 .container {
     display: grid;
-    height: 100vh;
+    height: 200vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr .8fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 0.5fr;
     gap: 0.2rem;
     grid-template-areas: 
         "nav nav nav"
@@ -17,6 +17,18 @@
 nav {
     background-color: crimson;
     grid-area: nav;
+    padding-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
 }
 
 main {
@@ -27,12 +39,18 @@ main {
 #sidebar {
     background-color: darksalmon;
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
 }
 
 
 #content1 {
-    background-color: aqua;
     grid-area: content1;
+    background-image: url(../images/run-buddy.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #content2 {
