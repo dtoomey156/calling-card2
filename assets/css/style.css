@@ -106,7 +106,7 @@ main {
 
 #content5 {
     grid-area: content5;
-    background-image: url(../Images/coming-soon.jpg);
+    background-image: url(../Images/cinfo.jpg);
     background-size: cover;
     background-position: center;
 }
